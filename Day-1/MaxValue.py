@@ -1,0 +1,5 @@
+print("Enter 3 numbers :")
+n1, n2, n3 = int(input()), int(input()), int(input())
+print(n1, n2, n3)
+maxi = (n1 if (n1 > n2 and n1 > n3) else (n2 if (n2 > n1 and n2 > n3) else n3))
+print(maxi)
